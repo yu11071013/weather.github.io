@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(153, 224, 229);
+}
+body * {
+  margin: 1% 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+select {
+  width: 30%;
+  height: 10%;
+  border-radius: 5%;
+}
+
+.content {
+  width: 30%;
+  height: 30%;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  padding: 2%;
+  position: relative;
+}
+.content p {
+  margin: 1%;
+}
+.content i {
+  font-size: 100px;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+}/*# sourceMappingURL=main.css.map */
